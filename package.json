@@ -1,0 +1,23 @@
+{
+  "name": "joker",
+  "version": "0.0.1",
+  "description": "practice application that tells jokes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaranJ/joker.git"
+  },
+  "keywords": [
+    "css",
+    "e-commerce"
+  ],
+  "author": "Taran Johannessen <tarjoh@stud.noroff.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TaranJ/joker/issues"
+  },
+  "homepage": "https://github.com/TaranJ/joker#readme"
+}
