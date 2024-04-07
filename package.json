@@ -22,9 +22,6 @@
     "url": "https://github.com/TaranJ/joker/issues"
   },
   "homepage": "https://github.com/TaranJ/joker#readme",
-  "dependencies": {
-    "one-liner-joke": "^1.2.2"
-  },
   "devDependencies": {
     "prettier": "^3.2.5"
   }
