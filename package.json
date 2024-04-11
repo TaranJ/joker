@@ -1,12 +1,14 @@
 {
   "name": "joker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "practice application that tells jokes",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,9 @@
   },
   "homepage": "https://github.com/TaranJ/joker#readme",
   "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
     "prettier": "^3.2.5"
   },
   "dependencies": {
