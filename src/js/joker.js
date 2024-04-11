@@ -11,7 +11,3 @@ export function dadJoke() {
     }
   });
 }
-
-export function test() {
-  console.log('hi');
-}
