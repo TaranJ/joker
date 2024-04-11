@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "node src/js/joker.test.js",
-    "format": "prettier -w src/**/*.js"
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,9 @@
   },
   "homepage": "https://github.com/TaranJ/joker#readme",
   "devDependencies": {
+    "@eslint/js": "^9.0.0",
     "eslint": "^9.0.0",
+    "globals": "^15.0.0",
     "prettier": "^3.2.5"
   },
   "dependencies": {
